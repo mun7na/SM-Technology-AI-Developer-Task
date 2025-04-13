@@ -26,8 +26,6 @@ I developed and evaluated:
 - `toxic`: Target label (1 if toxic)
 - `abusive`, `vulgar`, `menace`, `offense`, `bigotry`: Auxiliary labels to enrich model learning
 
-**Note:** Although multiple labels are available, the final output should only predict the **`toxic`** column.
-
 ---
 
 ## ⚙️ Model Implementation Details
@@ -45,10 +43,4 @@ I developed and evaluated:
 - **Handling Multilingual Data:** XLM-R's multilingual capability ensures better generalization on non-English text
 
 ---
-
-## ▶️ Steps to Run the Code
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/offensive-language-classification.git
-   cd offensive-language-classification
+I have completed Model 1, which achieved a good accuracy of 77%. However, I was unable to complete Model 2.
